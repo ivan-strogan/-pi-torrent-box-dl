@@ -5,6 +5,7 @@ services:
     environment:
       - LOG_LEVEL=info
       - TZ=America/Toronto
+      - TIMEOUT=120000
     ports:
       - "8191:8191"
     restart: unless-stopped
