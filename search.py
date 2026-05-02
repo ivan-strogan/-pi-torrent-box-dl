@@ -3,7 +3,7 @@ import sys
 import requests
 from html.parser import HTMLParser
 
-FLARESOLVERR = "http://localhost:8191/v1"
+FLARESOLVERR = "http://192.168.0.99:8191/v1"
 BASE_URL = "https://1337x.to"
 
 
