@@ -1,14 +1,10 @@
 services:
-  flaresolverr:
-    image: ghcr.io/flaresolverr/flaresolverr:latest
-    container_name: flaresolverr
-    environment:
-      - LOG_LEVEL=info
-      - TZ=America/Toronto
-      - TIMEOUT=120000
-    ports:
-      - "8191:8191"
-    restart: unless-stopped
+  # FlareSolverr runs on Synology NAS (192.168.0.99) — too slow for Pi 3
+  # flaresolverr:
+  #   image: ghcr.io/flaresolverr/flaresolverr:latest
+  #   ports:
+  #     - "8191:8191"
+  #   restart: unless-stopped
 
   jackett:
     image: lscr.io/linuxserver/jackett:latest
