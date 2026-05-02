@@ -1,0 +1,4 @@
+jackett/
+__pycache__/
+*.pyc
+.env
