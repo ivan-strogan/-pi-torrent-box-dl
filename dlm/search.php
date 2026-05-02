@@ -6,7 +6,7 @@ class SynoDLMSearch1337xJackett {
 
     public function prepare($curl, $query) {
         $url = sprintf(
-            '%s/api/v2.0/indexers/%s/results/torznab/?apikey=%s&Query=%s',
+            '%s/api/v2.0/indexers/%s/results/torznab/?apikey=%s&t=search&q=%s',
             $this->jackett_url,
             $this->indexer,
             $this->api_key,
