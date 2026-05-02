@@ -1,0 +1,10 @@
+{
+"name": "1337x_pi_jackett",
+"displayname": "1337x-pi-jackett",
+"description": "1337x search via Jackett running on Pi",
+"version": "1.0",
+"site": "https://1337x.to",
+"module": "search.php",
+"type": "search",
+"class": "SynoDLMSearch1337xJackett"
+}
