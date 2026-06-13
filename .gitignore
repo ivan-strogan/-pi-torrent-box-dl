@@ -1,4 +1,5 @@
-jackett/
+jackett/config/
+jackett/downloads/
 __pycache__/
 *.pyc
 .env

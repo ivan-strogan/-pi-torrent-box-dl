@@ -16,6 +16,7 @@ services:
     volumes:
       - ./jackett/config:/config
       - ./jackett/downloads:/downloads
+      - ./jackett/init.sh:/custom-cont-init.d/jackett-custom.sh:ro
     ports:
       - "9117:9117"
     restart: unless-stopped
